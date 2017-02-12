@@ -1,0 +1,5 @@
+- hosts: vpc-production
+  connection: local
+
+  roles:
+  - vpc
